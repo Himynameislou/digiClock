@@ -27,7 +27,12 @@
       var hrs = new Date().getHours();
       var mns = new Date().getMinutes();
       var scs = new Date().getSeconds();
+
+      hours.innerHTML = hrs;
+      minutes.innerHTML = mns;
+      seconds.innerHTML = scs;
     }
+    var interval = setInterval(clock, 1000);
   </script>
 
 </body>
